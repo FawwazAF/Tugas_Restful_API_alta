@@ -1,0 +1,183 @@
+{
+	"info": {
+		"_postman_id": "0ba32dfc-bc87-49e9-950d-e69ce215d49e",
+		"name": "NEWSAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Article Mentioning Apple",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://newsapi.org/v2/everything?q=apple&from=2021-07-14&to=2021-07-14&sortBy=popularity&apiKey=19e6defe22a1477cb03a6456110d3c03",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"everything"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "apple"
+						},
+						{
+							"key": "from",
+							"value": "2021-07-14"
+						},
+						{
+							"key": "to",
+							"value": "2021-07-14"
+						},
+						{
+							"key": "sortBy",
+							"value": "popularity"
+						},
+						{
+							"key": "apiKey",
+							"value": "19e6defe22a1477cb03a6456110d3c03"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Article bout Tesla",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://newsapi.org/v2/everything?q=tesla&from=2021-06-15&sortBy=publishedAt&apiKey=19e6defe22a1477cb03a6456110d3c03",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"everything"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "tesla"
+						},
+						{
+							"key": "from",
+							"value": "2021-06-15"
+						},
+						{
+							"key": "sortBy",
+							"value": "publishedAt"
+						},
+						{
+							"key": "apiKey",
+							"value": "19e6defe22a1477cb03a6456110d3c03"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TOP business headline",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=19e6defe22a1477cb03a6456110d3c03",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"top-headlines"
+					],
+					"query": [
+						{
+							"key": "country",
+							"value": "us"
+						},
+						{
+							"key": "category",
+							"value": "business"
+						},
+						{
+							"key": "apiKey",
+							"value": "19e6defe22a1477cb03a6456110d3c03"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TOP Headline TechCrunch",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=19e6defe22a1477cb03a6456110d3c03",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"top-headlines"
+					],
+					"query": [
+						{
+							"key": "sources",
+							"value": "techcrunch"
+						},
+						{
+							"key": "apiKey",
+							"value": "19e6defe22a1477cb03a6456110d3c03"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Published wallstreet journal",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://newsapi.org/v2/everything?domains=wsj.com&apiKey=19e6defe22a1477cb03a6456110d3c03",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"everything"
+					],
+					"query": [
+						{
+							"key": "domains",
+							"value": "wsj.com"
+						},
+						{
+							"key": "apiKey",
+							"value": "19e6defe22a1477cb03a6456110d3c03"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
