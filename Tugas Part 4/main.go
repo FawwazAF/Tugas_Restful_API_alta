@@ -13,6 +13,7 @@ func main() {
 	config.InitDb()
 	config.InitPort()
 	routes.New(e)
+
 	e.Logger.Fatal(e.Start(fmt.Sprintf(":%d", config.HTTP_PORT)))
 	// e.Logger.Fatal(e.Start(":8080"))
 }
