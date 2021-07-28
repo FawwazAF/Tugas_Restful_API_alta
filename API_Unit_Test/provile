@@ -1,0 +1,5 @@
+mode: set
+api/test/controller/book.go:10.74,11.36 1 1
+api/test/controller/book.go:11.36,14.3 2 1
+api/test/controller/book.go:17.75,18.36 1 1
+api/test/controller/book.go:18.36,24.3 5 1
